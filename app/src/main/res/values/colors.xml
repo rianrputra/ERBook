@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="main_bg">#f39c12</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="material_cyan">#5F9EA0</color>
+    <color name="material_orange">#D2691E</color>
+    <color name="material_red">#CD5C5C</color>
+    <color name="material_yellow">#B8860B</color>
+    <color name="material_pressed_cyan">#538385</color>
+    <color name="material_pressed_orange">#C2580C</color>
+    <color name="material_pressed_red">#A33939</color>
+    <color name="material_pressed_yellow">#996F07</color>
+    <color name="salt_blue">#34495e</color>
+    <color name="pressed_salt_blue">#222f3e</color>
+    <color name="ed_background">#F0F0F0</color>
+    <color name="material_dark_red">#B71C1C</color>
+    <color name="material_dark_red_pressed">#991212</color>
+    <color name="ed_text_color">#3F3F3F</color>
+    <color name="transparent">#00000000</color>
+</resources>

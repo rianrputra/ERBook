@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormActivity"
+    android:padding="20dp"
+    android:background="@color/main_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Judul Buku"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/ed_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ed_transparent_small"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:singleLine="true"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kategori"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:id="@+id/sp_category"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5dp"
+                android:textSize="14sp"
+                android:background="@drawable/ed_transparent_small"
+                android:textColor="@android:color/white"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ISBN"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/ed_isbn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="numberSigned"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:background="@drawable/ed_transparent_small"
+                android:textColor="@android:color/white"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Terbit"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/ed_release_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:editable="false"
+                android:inputType="none"
+                android:textSize="14sp"
+                android:background="@drawable/ed_transparent_small"
+                android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="simpan"
+                android:textSize="16sp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ripple_main_button"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="batal"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ripple_main_button"
+                android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
